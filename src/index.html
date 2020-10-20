@@ -3,44 +3,27 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Personal Web Desktop by Chaoran Meng</title>
+    <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <script type="module" src="js/app.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 
-<body id="PWD">
-    <div id="windows">
-        <template>
-            <a href="#"><img class="brick" src="" alt="A memory brick"></img></a>
-        </template>
-        <div id="chat"></div>
-
-
-
+<body>
+    <h1>***Form***</h1>
+    <div id="info">
+        <p id="login">请登录账户之后开始填写表格</p>
+        <label for="username">用户名:</label>
+        <input type="text" name="user_name" id="name" />
+        <label for="password">密码:</label>
+        <input type="password" name="_passowrd" id="password" />
+            
+            <button id="login">登陆</button>
+            <button id="sign">注册</button>
+            <div id = "writename"></div>
     </div>
-            <template id="chatting">
-                <div id="userName">
-                    <input id="user" type="text" value=""  placeholder="Name"></input>
-                </div>
-                <div id="CH">
-                    <input id="channel" type="text" value=""  placeholder="Channel"></input>
-                </div>
-                <div id="textShow">
-                    <textarea id="text" rows="3" cols="20"  style="resize: none" ></textarea>
-                </div>
-                <div id="send">
-                    <input id="message" type="text" value="" placeholder="Message" ></input>
-                </div>
-                <div>
-                    <button id="sendButton">send</button>
-                </div>
-            </template>
 
-        </div>
-
-    <script src="build.js"></script>
 </body>
-
 </html>
