@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <h1>Contact</h1>
+
+      <form action="" method="POST">
+          <fieldset>
+              <legend>填写你要问的问题</legend>
+              <div>
+                      <div>
+                              <label for="Type">Type:</label>
+                              <select multiple="multiple" size="1">
+                              <option value="question">问题一</option>
+                              <option value="question2">问题二</option>
+                          </select>
+                      </div>
+                      <p>
+
+                      </p>
+                      <label for="name">姓名:</label>
+                      <input type="text" name="user_name" id="name1" />
+                      <p>
+
+                      </p>
+                      <label for="question">问题内容:</label>
+                      <textarea id="Question" name="Question"></textarea>
+              </div>
+          </fieldset>
+          <fieldset>
+              <legend>我该如何联系你?</legend>
+              <div>
+                 <p>电话:<input type="checkbox"></p>
+                 <p>邮箱:<input type="checkbox"></p>
+
+              </div>
+          </fieldset>
+          <button id="SendQ">提交</button>
+          <button id="Back">返回</button>
+      </form>
+</body>
+<script type="text/javascript" src="./js/SendQuestion.js"></script>
+
+</html>
